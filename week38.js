@@ -65,26 +65,30 @@ for (i = 1; i <= 10; i++){
     Use a loop (for) to print the numbers from 10 to 1.
 */
 console.log("Task: D");
-for (i = 10; i >= 1; i--)
+for (i = 10; i >= 1; i--){
     console.log(i)
+}
 /*
     Task: E
     This one is a bit more difficult, but you can do it ;)
     Use a loop (for) to print the even numbers between 1 and 100.
 */
 console.log("Task: E");
+for (i = 2; i <= 100; i+=2){
+    console.log(i);
+}    
 
 /*
     Task: F
     Use a while loop to print all the numbers from 0 to 100;
 */
 console.log("Task: F");
-
-
+while
 /*
     Task: G
     Fill in the code needed to make the following code print the expected result.
 */
+
 console.log("Task: G");
 
 const DICTIONARY_ML = {
