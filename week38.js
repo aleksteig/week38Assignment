@@ -34,7 +34,7 @@ const hrsInADay = 24;
 const minsInHr = 60;
 const secInMin = 60;
 let ratioWaterToJuice = "6:2";
-//let daysUntilYourBirthday = Math.abs(birthDateInDaysFromStart - currentDateInDaysFromStart);
+//let daysUntilYourBirthday = Math.abs(nextBirthDateInDaysFromStartOfYear - currentDateInDaysFromStartOfYear);
 //birthDateInDaysFromStart being your birthdate in days from the start of the year, so Feb 1st would be 32 as an example, and currentDateInDaysFromStart works the same.
 let mmRain = "Check the weather online";
 
