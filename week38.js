@@ -66,7 +66,7 @@ for (i = 1; i <= 10; i++){
 */
 console.log("Task: D");
 for (i = 10; i >= 1; i--){
-    console.log(i)
+    console.log(i);
 }
 /*
     Task: E
@@ -83,7 +83,12 @@ for (i = 2; i <= 100; i+=2){
     Use a while loop to print all the numbers from 0 to 100;
 */
 console.log("Task: F");
-while
+while(i != 100){
+    for (i=0; i<=100; i++){
+        console.log(i);
+    }
+    i = 100
+}
 /*
     Task: G
     Fill in the code needed to make the following code print the expected result.
@@ -93,13 +98,13 @@ console.log("Task: G");
 
 const DICTIONARY_ML = {
     no: {
-        hello: "Hello there",
-        howAreYou: "How are you doing?"
+        hello: "Hi",
+        howAreYou: "how are you?"
     },
     en: {
-
+        goodQuestionsLatly: "Gotten any good questions lately?"
     }
 };
 
-console.log(`${DICTIONARY.en.hello} Christian ${DICTIONARY.en.howAreYou}`); //-> Hi Christian, how are you?
-console.log(`${DICTIONARY.en.goodQuestionsLatly}`); //-> Gotten any good questions lately?
+console.log(`${DICTIONARY_ML.no.hello} Christian, ${DICTIONARY_ML.no.howAreYou}`); //-> Hi Christian, how are you?
+console.log(`${DICTIONARY_ML.en.goodQuestionsLatly}`); //-> Gotten any good questions lately?
