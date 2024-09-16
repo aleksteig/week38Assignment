@@ -50,20 +50,23 @@ let mmRain = "Check the weather online";
     const amountOfDL = dlInCups * 4.5;
 */
 console.log("Task: B");
-console.log("There are " + (secInMin * minsInHr * 2.5) + " seconds in 2.5 hours")
-
+const secsInTwoAndAHalfHrs = secInMin * minsInHr * 2.5
+const minsIn123Days = minsInHr * hrsInADay * 123
 /*
     Task: C
     Use a loop (for) to print the numbers from 1 to 10.
 */
 console.log("Task: C");
-
+for (i = 1; i <= 10; i++){
+    console.log(i);
+}
 /*
     Task: D
     Use a loop (for) to print the numbers from 10 to 1.
 */
 console.log("Task: D");
-
+for (i = 10; i >= 1; i--)
+    console.log(i)
 /*
     Task: E
     This one is a bit more difficult, but you can do it ;)
